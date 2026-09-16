@@ -1,0 +1,67 @@
+{
+ "schema": "m2play-manifest/1",
+ "ver": 1,
+ "tag": "pack-1f956e5b",
+ "pack": {
+  "size": 54243761,
+  "sha256": "1f956e5bcbabb175e803d3b818e5306d4e5f9e47167d021c72fea878b2f1b4a9",
+  "target": "m2helper",
+  "parts": [
+   {
+    "p": "pack/part00.bin",
+    "n": 8388608,
+    "sha256": "ceabfc521deb4720a098e445d6215397bb5d3372eb225df2e82452b12bfb6ad5"
+   },
+   {
+    "p": "pack/part01.bin",
+    "n": 8388608,
+    "sha256": "1e76311d1717dd03d891579f3282e2b39d9ad26a8563401b4de8e28178fa1fdc"
+   },
+   {
+    "p": "pack/part02.bin",
+    "n": 8388608,
+    "sha256": "9ce16eaa83475a1c9bcf301fb2cad0ed638809b8605c9e9acef6f1470e18335c"
+   },
+   {
+    "p": "pack/part03.bin",
+    "n": 8388608,
+    "sha256": "2c4b77557332768b016e257ee223cde298dc69698d0ba99863aeb37cd7025b3b"
+   },
+   {
+    "p": "pack/part04.bin",
+    "n": 8388608,
+    "sha256": "5b1a62e845f23020d5937143956cea176077beb654be058f1ceb8ccc6facf50b"
+   },
+   {
+    "p": "pack/part05.bin",
+    "n": 8388608,
+    "sha256": "11dd69123ae5014b27c3b0780cb54756997583bd3922233acc414f69b3f63761"
+   },
+   {
+    "p": "pack/part06.bin",
+    "n": 3912113,
+    "sha256": "ac547a2ded1a313eaea686cab5820c5730302cd2d2be8e73870b3f9b9618db2e"
+   }
+  ]
+ },
+ "scripts": {
+  "ninjeye": {
+   "url": "https://raw.githubusercontent.com/filesdungeon/0x1/main/h2hack.bin",
+   "ver": 1
+  },
+  "byteshield": {
+   "url": "https://raw.githubusercontent.com/filesdungeon/0x1/main/h2hack.bin",
+   "ver": 1
+  }
+ },
+ "profiles": [
+  {
+   "id": "ninjeye",
+   "url": "profiles/ninjeye.json"
+  },
+  {
+   "id": "byteshield",
+   "url": "profiles/byteshield.json"
+  }
+ ]
+}
